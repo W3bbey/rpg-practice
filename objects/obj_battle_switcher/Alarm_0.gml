@@ -1,0 +1,1 @@
+instance_destroy(); // neat little self destruct
