@@ -1,6 +1,6 @@
 
 
-var inst = instance_create_layer(x, y, "Instances", obj_fireball);
+var inst = instance_create_layer(x - 1, y - 3, "Instances", obj_fireball);
 with (inst)
 {
     speed = other.shoot_speed;
