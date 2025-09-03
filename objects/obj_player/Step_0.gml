@@ -18,3 +18,7 @@ else
     else if (sprite_index == spr_player_walk_down) sprite_index = spr_player_idle_down;
 }
 
+if (hp <= 0)
+{
+    game_restart();
+}
